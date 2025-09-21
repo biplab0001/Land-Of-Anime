@@ -1,0 +1,130 @@
+body{
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(180deg, #f0f4f8, #d9e2ec);
+}
+
+#root {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.main-head {
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    width: 70rem;
+    height: 15rem;
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background: linear-gradient(135deg, #e0f7fa, #ffffff);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.main .left img{
+    height: 14rem;
+    margin: 7px;
+    border: 0px solid black;
+    box-shadow: 10px 20px 20px rgba(0,0,0,0.1);
+    border-radius: 1rem;
+}
+
+.main .right{
+    margin: 7px;
+}
+
+.main .right .title {
+    font-size: medium;
+    font: 2em sans-serif;
+    margin-bottom: 6px;
+}
+
+.main .right .description{
+    font: 1rem sans-serif;
+    margin-bottom: 2rem;
+}
+
+.main .right .price{
+    font: sans-serif;
+    margin-bottom: 3rem;
+}
+
+.main .right .footer {
+    display: flex;
+}
+
+.main .right .footer .rating{
+    margin-right: 20rem;
+}
+
+.main .right .footer .stars {
+    display: flex;
+    margin-right: 18rem;
+}
+
+.main .right .footer .stars .dec{
+    width: 10px;
+    height: 10px;
+
+}
+
+.main .right .footer .stars .inc{
+    width: 10px;
+    height: 10px;
+}
+
+.main .right .footer .stars .star{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.main .right .footer .stars .star-count{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+    padding: 1px;
+}
+
+.main .right .footer .fev {
+    margin-right: 1rem;
+    height: 2rem;
+    width: 5rem;
+    background-color: rgb(147, 246, 195);
+    border: 2px solid black;
+    box-shadow: 10px 20px 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.main .right .footer .unfev {
+    margin-right: 1rem;
+    height: 2rem;
+    width: 5rem;
+    background-color: rgb(248, 89, 54);
+    border: 2px solid black;
+    box-shadow: 10px 20px 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.main .right .footer .add {
+    height: 2rem;
+    width: 6rem;
+    background-color: rgb(149, 213, 243);
+    border: 2px solid black;
+    box-shadow: 10px 20px 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.main .right .footer .remove {
+    height: 2rem;
+    width: 6rem;
+    background-color: rgb(249, 115, 115);
+    border: 2px solid black;
+    box-shadow: 10px 20px 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
